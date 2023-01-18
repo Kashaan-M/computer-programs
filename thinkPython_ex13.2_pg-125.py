@@ -27,8 +27,11 @@ for word in text:
         words_dict[word] = 1
     else:
         words_dict[word] += 1
+    # alternate combination for line 26 - line 29 expressions
+    # words_dict[word] = words_dict.get(word, 0) + 1
     total_words += 1
 print('Number of words is ',total_words)
+print(len(words_dict))
 #print(words_dict)
 
 
