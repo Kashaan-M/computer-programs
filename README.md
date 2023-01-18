@@ -6,3 +6,5 @@ Here are some programs/procedures I learned and implemented from:
 - [Think Python 2nd Ed. by Allen Downey](https://greenteapress.com/wp/think-python-2e/)
 
 This endeavour is to become a better Programmer and gain a deeper insight into computers
+
+Programs from the book **_Think Python_** will have the prefix `tpy`
