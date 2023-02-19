@@ -78,7 +78,9 @@ def remove_unwanted(words):
 
 
 def analyze(docxFile):
-    """get the docx file and collect bold, italicized, and underlined words from it and return a `collect` variable containing variously styled words"""
+    """analyze the docx file and collect bold, italicized, and underlined words from it
+    and return a `collect` object these selected words
+    """
 
     global start, end, step, total_words
 
@@ -142,7 +144,9 @@ def analyze(docxFile):
 
 
 def write_data(docxFile, data):
-    """gets the `collect` variable as 'data' argument from analyze() and and reads and appends the 'data' to end of docx file"""
+    """gets the `collect` variable as 'data' argument from analyze()
+    and reads and appends the 'data' to end of docx file
+    """
 
     global start, end, wordsList, FROM
 
