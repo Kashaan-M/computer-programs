@@ -1,0 +1,6 @@
+Ping IS-A PingPongParent
+Pong IS-A PingPongParent
+
+pong is an instance of Pong
+ping is an instance of Ping and HAS-A attribute self.pong which is an instance of Pong
+pong HAS-A attribute self.ping which is an instance of Ping
