@@ -45,7 +45,7 @@ class Start:
 
 	def poly_eq(self):
 		print("\nYou have entered the below polynomial equation\n")
-		print(self.poly)
+		print(self.poly,'\n\n')
 
 	def ask_domain_start(self):
 		self.start=input("Please enter start value of 'x' axis. (Make sure it is an integer)\n")
