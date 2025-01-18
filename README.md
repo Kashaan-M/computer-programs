@@ -1,10 +1,19 @@
-# Computing | Algorithms | Programming
+A bunch of Python Programs with a few utility programs such as 
 
-Here are some programs/procedures I learned and implemented from:
+## 1 - extract.py
 
-- [U.C. Berkeley C.S. 61A course taught by Brian Harvey](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E)
-- [Think Python 2nd Ed. by Allen Downey](https://greenteapress.com/wp/think-python-2e/)
+![screenshot of extract-program-info.png](/extract-program-info.png)
 
-This endeavour is to become a better Programmer and gain a deeper insight into computers
+## 2 - plotpoly.py
 
-Programs from the book **_Think Python_** will have the prefix `tpy`
+plot polynomials easily from the comfort of your command line with this interactive program.
+
+### Requirements
+
+ This script requires numpy and matplotlib.
+
+### How to run
+
+You can run this program as a script from the command line as follows.**Make sure you open command prompt/powershell in the same folder containing this script file**
+
+`python /plotpoly.py`
